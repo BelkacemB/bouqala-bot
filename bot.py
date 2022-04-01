@@ -67,5 +67,6 @@ def respondToTweet(file='tweet_ID.txt'):
     put_last_tweet(file, new_id)
 
 if __name__=="__main__":
-    respondToTweet()
-    time.sleep(60)
+    while True:
+        respondToTweet()
+        time.sleep(60)
