@@ -2,3 +2,4 @@ tweepy
 APScheduler
 Flask
 Pillow
+python-dotenv
